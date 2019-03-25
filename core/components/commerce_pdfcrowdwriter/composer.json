@@ -1,0 +1,11 @@
+{
+    "require": {
+        "php": ">=5.5.0",
+        "pdfcrowd/pdfcrowd": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "modmore\\Commerce\\PDFCrowdWriter\\" : "src/"
+        }
+    }
+}
