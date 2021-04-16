@@ -1,7 +1,7 @@
 {
     "require": {
         "php": ">=5.5.0",
-        "pdfcrowd/pdfcrowd": "^4.7"
+        "pdfcrowd/pdfcrowd": "^5.1"
     },
     "autoload": {
         "psr-4": {
