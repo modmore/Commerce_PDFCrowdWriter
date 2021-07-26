@@ -72,4 +72,13 @@ final class Writer implements WriterInterface, FromHtmlWriterInterface
 
         return $binary;
     }
+
+    public function setConverterVersion($version): void
+    {
+        try {
+            $this->client->setConverterVersion($version);
+        } catch (Error $e) {
+            // quietly let it use the default
+        }
+    }
 }

@@ -3,6 +3,7 @@ namespace modmore\Commerce\PDFCrowdWriter\Modules;
 use modmore\Commerce\Admin\Configuration\About\ComposerPackages;
 use modmore\Commerce\Admin\Sections\SimpleSection;
 use modmore\Commerce\Admin\Widgets\Form\PasswordField;
+use modmore\Commerce\Admin\Widgets\Form\SelectField;
 use modmore\Commerce\Admin\Widgets\Form\TextField;
 use modmore\Commerce\Events\Admin\PageEvent;
 use modmore\Commerce\Events\PDFWriter;
@@ -46,7 +47,9 @@ class PDFCrowdWriter extends BaseModule {
         if (empty($username) || empty($apikey)) {
             return;
         }
+        $converter = $this->getConfig('converter', '20.10');
         $instance = new Writer($username, $apikey);
+        $instance->setConverterVersion($converter);
         $event->addWriter($instance);
     }
 
@@ -67,6 +70,27 @@ class PDFCrowdWriter extends BaseModule {
             'description' => $this->adapter->lexicon('commerce_pdfcrowdwriter.apikey.desc'),
             'value' => $module->getProperty('apikey', '')
         ]);
+        $fields[] = new SelectField($this->commerce, [
+            'name' => 'properties[converter]',
+            'label' => $this->adapter->lexicon('commerce_pdfcrowdwriter.converter'),
+            'description' => $this->adapter->lexicon('commerce_pdfcrowdwriter.converter.desc'),
+            'value' => $module->getProperty('converter', 'latest'),
+            'options' => [
+                [
+                    'value' => 'latest',
+                    'label' => 'latest',
+                ],
+                [
+                    'value' => '20.10',
+                    'label' => '20.10',
+                ],
+                [
+                    'value' => '18.10',
+                    'label' => '18.10',
+                ],
+            ]
+        ]);
+        //latest|20.10|18.10
 
         return $fields;
     }

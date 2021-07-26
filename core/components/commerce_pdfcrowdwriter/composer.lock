@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "834ac1e0d5624296ead99ecf0af0c578",
+    "content-hash": "ff827edbe825141b4f416b2f7a2dba9b",
     "packages": [
         {
             "name": "pdfcrowd/pdfcrowd",
-            "version": "4.7.0",
+            "version": "5.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pdfcrowd/pdfcrowd-php.git",
-                "reference": "0e06c61c6f76c9b6cfa7f743f480f27f4106fd56"
+                "reference": "d54b7722a973412ac1e163c90ab776dd10d64c13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pdfcrowd/pdfcrowd-php/zipball/0e06c61c6f76c9b6cfa7f743f480f27f4106fd56",
-                "reference": "0e06c61c6f76c9b6cfa7f743f480f27f4106fd56",
+                "url": "https://api.github.com/repos/pdfcrowd/pdfcrowd-php/zipball/d54b7722a973412ac1e163c90ab776dd10d64c13",
+                "reference": "d54b7722a973412ac1e163c90ab776dd10d64c13",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "web page",
                 "web service"
             ],
-            "time": "2019-03-21T08:08:33+00:00"
+            "time": "2021-05-12T05:21:28+00:00"
         }
     ],
     "packages-dev": [],
@@ -62,7 +62,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5.0"
+        "php": ">=7.1.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

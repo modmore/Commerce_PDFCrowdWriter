@@ -1,4 +1,12 @@
-++ PDFCrowdWriter for Commerce 1.0.0-pl
-++ Released on 2019-03-26
-++++++++++++++++++++++++++
+PDFCrowdWriter for Commerce 2.0.0-pl
+------------------------------------
+Released on 2021-07-26
+
+- Upgrade to pdfcrowd/pdfcrowd 5.1.1. This is a breaking change, most importantly using a different converter engine by default, so if you've heavily customised your invoice please make sure it's correct.
+- Add property to the module to choose which converter to use.
+
+PDFCrowdWriter for Commerce 2.0.0-pl
+------------------------------------
+Released on 2019-03-26
+
 - First release
