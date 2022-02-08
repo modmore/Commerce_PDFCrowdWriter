@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "pdfcrowd/pdfcrowd",
-            "version": "5.1.1",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pdfcrowd/pdfcrowd-php.git",
-                "reference": "d54b7722a973412ac1e163c90ab776dd10d64c13"
+                "reference": "1113c383c36b44428e9aca9eb558a7d6350fc38e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pdfcrowd/pdfcrowd-php/zipball/d54b7722a973412ac1e163c90ab776dd10d64c13",
-                "reference": "d54b7722a973412ac1e163c90ab776dd10d64c13",
+                "url": "https://api.github.com/repos/pdfcrowd/pdfcrowd-php/zipball/1113c383c36b44428e9aca9eb558a7d6350fc38e",
+                "reference": "1113c383c36b44428e9aca9eb558a7d6350fc38e",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "web page",
                 "web service"
             ],
-            "time": "2021-05-12T05:21:28+00:00"
+            "time": "2022-02-08T10:59:27+00:00"
         }
     ],
     "packages-dev": [],
