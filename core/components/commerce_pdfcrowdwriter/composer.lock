@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "pdfcrowd/pdfcrowd",
-            "version": "5.1.1",
+            "version": "5.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pdfcrowd/pdfcrowd-php.git",
-                "reference": "d54b7722a973412ac1e163c90ab776dd10d64c13"
+                "reference": "c4dd62f5013791fba20488386a9e5eab4734eeff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pdfcrowd/pdfcrowd-php/zipball/d54b7722a973412ac1e163c90ab776dd10d64c13",
-                "reference": "d54b7722a973412ac1e163c90ab776dd10d64c13",
+                "url": "https://api.github.com/repos/pdfcrowd/pdfcrowd-php/zipball/c4dd62f5013791fba20488386a9e5eab4734eeff",
+                "reference": "c4dd62f5013791fba20488386a9e5eab4734eeff",
                 "shasum": ""
             },
             "require": {
@@ -38,11 +38,11 @@
                 {
                     "name": "Pdfcrowd Team",
                     "email": "support@pdfcrowd.com",
-                    "homepage": "https://pdfcrowd.com/doc/api/"
+                    "homepage": "https://pdfcrowd.com/api/"
                 }
             ],
             "description": "A client library for the Pdfcrowd API. It lets you convert between HTML, PDF and various image formats",
-            "homepage": "https://pdfcrowd.com/doc/api/",
+            "homepage": "https://pdfcrowd.com/api/",
             "keywords": [
                 "api",
                 "client",
@@ -52,7 +52,7 @@
                 "web page",
                 "web service"
             ],
-            "time": "2021-05-12T05:21:28+00:00"
+            "time": "2022-10-03T10:14:21+00:00"
         }
     ],
     "packages-dev": [],
