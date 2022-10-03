@@ -1,3 +1,10 @@
+PDFCrowdWriter for Commerce 2.0.1-pl
+------------------------------------
+Released on 2022-10-04
+
+- pdfcrowd/pdfcrowd updated from 5.1.1 to 5.9.0
+
+
 PDFCrowdWriter for Commerce 2.0.0-pl
 ------------------------------------
 Released on 2021-07-26
