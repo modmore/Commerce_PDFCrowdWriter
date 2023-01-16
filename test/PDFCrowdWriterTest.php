@@ -6,7 +6,7 @@ use modmore\Commerce\Events\PDFWriter;
 use modmore\Commerce\PDF\Writer\WriterInterface;
 use modmore\Commerce\PDFCrowdWriter\Modules\PDFCrowdWriter;
 use modmore\Commerce\PDFCrowdWriter\Writer;
-use Symfony\Component\EventDispatcher\EventDispatcher;
+use modmore\Commerce\Dispatcher\EventDispatcher;
 
 class PDFCrowdWriterTest extends \PHPUnit_Framework_TestCase
 {

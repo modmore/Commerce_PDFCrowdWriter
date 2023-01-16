@@ -9,7 +9,7 @@ use modmore\Commerce\Events\Admin\PageEvent;
 use modmore\Commerce\Events\PDFWriter;
 use modmore\Commerce\Modules\BaseModule;
 use modmore\Commerce\PDFCrowdWriter\Writer;
-use Symfony\Component\EventDispatcher\EventDispatcher;
+use modmore\Commerce\Dispatcher\EventDispatcher;
 
 require_once dirname(dirname(__DIR__)) . '/vendor/autoload.php';
 
