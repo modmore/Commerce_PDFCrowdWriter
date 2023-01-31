@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "pdfcrowd/pdfcrowd",
-            "version": "5.9.0",
+            "version": "5.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pdfcrowd/pdfcrowd-php.git",
-                "reference": "c4dd62f5013791fba20488386a9e5eab4734eeff"
+                "reference": "00714fba1ae3dc3de8f83b3702d2dc92ac516606"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pdfcrowd/pdfcrowd-php/zipball/c4dd62f5013791fba20488386a9e5eab4734eeff",
-                "reference": "c4dd62f5013791fba20488386a9e5eab4734eeff",
+                "url": "https://api.github.com/repos/pdfcrowd/pdfcrowd-php/zipball/00714fba1ae3dc3de8f83b3702d2dc92ac516606",
+                "reference": "00714fba1ae3dc3de8f83b3702d2dc92ac516606",
                 "shasum": ""
             },
             "require": {
@@ -54,9 +54,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pdfcrowd/pdfcrowd-php/issues",
-                "source": "https://github.com/pdfcrowd/pdfcrowd-php/tree/5.9.0"
+                "source": "https://github.com/pdfcrowd/pdfcrowd-php/tree/5.12.0"
             },
-            "time": "2022-10-03T10:14:21+00:00"
+            "time": "2023-01-31T15:09:11+00:00"
         }
     ],
     "packages-dev": [],
@@ -69,5 +69,5 @@
         "php": ">=7.1.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
